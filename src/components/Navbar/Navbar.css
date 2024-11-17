@@ -1,0 +1,56 @@
+* {
+  color: white;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: red;
+}
+
+nav {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 5rem;
+}
+
+nav ul button {
+  background-color: transparent;
+  padding: 0.7rem;
+  border: 1px solid;
+  border-radius: 5px;
+
+  cursor: pointer;
+  position: relative;
+  transition: all linear 0.2s;
+}
+
+/* nav ul button::after{
+    content: "";
+    background: linear-gradient(to right, red);
+    height: 100%;
+    width: 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 150ms ease-in-out;
+} */
+
+nav ul button:hover {
+  background-color: red;
+  border: red solid 1px;
+}

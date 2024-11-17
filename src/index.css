@@ -7,4 +7,15 @@
 html {
   font-family: "Quicksand", sans-serif;
   min-height: 40rem;
+  background-image: url("../public/pic.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+main {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
 }
