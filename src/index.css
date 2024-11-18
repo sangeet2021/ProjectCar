@@ -7,6 +7,11 @@
 html {
   font-family: "Quicksand", sans-serif;
   min-height: 40rem;
+  
+}
+
+.main {
+  position: relative;
   background-image: url("../public/pic.jpeg");
   background-repeat: no-repeat;
   background-position: center;
@@ -17,5 +22,9 @@ html {
 
 main {
   height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
