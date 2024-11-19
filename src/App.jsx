@@ -1,5 +1,6 @@
 import "./App.css";
-import Carousel from "./components/Carousel/Carousel";
+import Glass from "./components/Glass/Glass";
+
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <div className="main">
         <main>
           <Navbar />
-          <Carousel />
+          <Glass/>
         </main>
       </div>
     </>
