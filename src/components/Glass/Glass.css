@@ -10,3 +10,15 @@
     margin: auto;
     margin-top: 10rem;
 }
+
+.desc{
+    margin-top: 2rem;
+    word-spacing: 1px;
+    width: 100%;
+}
+
+.image{
+    width: 100%;
+}
+
+.image img
