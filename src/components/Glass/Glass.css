@@ -1,24 +1,56 @@
-.glass{
-    width: 70%;
-    background: linear-gradient(to right, rgba(255,255,255,0.1), rgba((255,255,255,0)));
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 8px 32px 0 rgba(255,255,255,0.1);
-    padding: 2rem;
-    height: max-content;
-    margin: auto;
-    margin-top: 10rem;
+.glass {
+  width: 80%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba((255, 255, 255, 0))
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  height: max-content;
+  margin: auto;
+  margin-top: 10rem;
+  display: flex;
 }
 
-.desc{
-    margin-top: 2rem;
-    word-spacing: 1px;
-    width: 100%;
+.desc {
+  margin-top: 2rem;
+  word-spacing: 1px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
 }
 
-.image{
-    width: 100%;
+.des {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
 
-.image img
+.des h1 {
+  margin-bottom: 2rem;
+  text-indent: 0;
+}
+
+.des p {
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}

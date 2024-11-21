@@ -4,11 +4,11 @@ import car from "../../../public/car.jpg";
 const Glass = () => {
   return (
     <div className="glass">
-      <h1>
-        Project<span>Cars</span>
-      </h1>
       <div className="desc">
         <div className="des">
+          <h1>
+            Project<span>Cars</span>
+          </h1>
           <p>
             Project<span>Cars</span> specializes in transforming vehicles into
             personalized masterpieces through expert modifications. From
