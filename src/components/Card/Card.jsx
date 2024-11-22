@@ -1,10 +1,12 @@
-
-import "./Card.css"
+import "./Card.css";
 
 const Card = () => {
   return (
-    <div className="card">Card</div>
-  )
-}
+    <div className="card">
+      <div className="menu"></div>
+      <div className="display"></div>
+    </div>
+  );
+};
 
-export default Card
+export default Card;
