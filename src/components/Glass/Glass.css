@@ -1,4 +1,5 @@
 .glass {
+
   width: 80%;
   background: linear-gradient(
     to right,
@@ -14,6 +15,7 @@
   margin: auto;
   margin-top: 10rem;
   display: flex;
+
 }
 
 .desc {
@@ -54,3 +56,5 @@
   object-fit: cover;
   border-radius: 5px;
 }
+
+

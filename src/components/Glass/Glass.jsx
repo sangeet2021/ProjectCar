@@ -1,5 +1,5 @@
 import "./Glass.css";
-import car from "../../../public/car.jpg";
+import car from "/car.jpg";
 
 const Glass = () => {
   return (

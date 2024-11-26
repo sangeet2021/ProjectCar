@@ -1,12 +1,10 @@
-* {
-  color: white;
-  text-align: center;
-}
+
 
 .nav {
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  
   
 }
 
@@ -19,13 +17,21 @@ span {
 }
 
 nav {
-  margin: 2rem;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 100%;
   position: fixed;
-  
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba((255, 255, 255, 0))
+  );
+  backdrop-filter: blur(10px);
+  height: 5rem;
 }
 
 nav ul {

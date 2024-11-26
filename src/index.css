@@ -2,12 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
+  color: white;
+  text-align: center;
+  z-index: 5;
 }
 
 html {
   font-family: "Quicksand", sans-serif;
   min-height: 40rem;
-  
+  scroll-behavior: smooth;
 }
 
 .main {
@@ -27,4 +31,11 @@ main {
   left: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
 }
+
+section{
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+}
+

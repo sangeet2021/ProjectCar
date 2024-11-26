@@ -8,14 +8,14 @@ function App() {
   return (
     <>
       <div className="main">
+        <Navbar className="main2" />
         <main>
-          <Navbar />
           <Glass />
         </main>
       </div>
       <div className="section">
         <section>
-          <Card/>
+          <Card />
         </section>
       </div>
     </>
